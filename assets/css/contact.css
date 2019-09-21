@@ -9,21 +9,36 @@ body {
 }
 
 h1 {  
-    margin-left: -90px;
-    line-height: 0px;
-    margin: 30px;
-        padding: 20px;
+    
+    color: #4aaaa5;
+        margin: 20px 300px;
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 50px;
+        padding: 20px 20px 20px 20px;
         line-height: -500px;
+        left: 40px;
 }
 
+hr {
+    float: left;
+    line-height: 80px;
+    position: absolute;
+    margin: 90px 350px;
+}
+
+
 .content {
+    line-height: 30px;
     clear: both;
     background-color: #ffffff;
     margin: 200px;
-    padding: 100px;
+    padding: 120px 60px;
     margin-left: 300px;
     border:2px solid; 
     border-color: #cccccc;
+    font-size: 20px;
+    color: #666666;
 
 }
 
@@ -105,7 +120,7 @@ nav {
         right: 0;
         
         clear: both;
-        margin-top: 200px;
+        margin-top: 300px;
         border-top: 10px solid;
         border-color: #4aaaa5;
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #cccccc;
     background-image: url(../images/floor-tile.png)
 }
@@ -27,8 +27,12 @@ header {
 .content {
     background-size: cover;
     display: inline-block;
-    margin: 150px 100px;
+    margin: 120px 260px;
     padding: 100px 100px;
+    border-image: 70px;
+    line-height: 90px;
+    left: 60px;
+    
 }
 
 
