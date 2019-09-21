@@ -11,7 +11,7 @@ body {
 h2 {
     
         color: #4aaaa5;
-        margin: 170px 160px;
+        margin: 140px 130px;
         position: absolute;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-bottom: 40px;
@@ -94,7 +94,7 @@ nav {
 
     p {
         font-size: 17;
-        line-height: 20px;
+        line-height: 25px;
         margin: 180px 30px 30px 30px;
         margin-top: 70px     
     }
@@ -106,9 +106,12 @@ nav {
         float: right;
         clear: both;
         background-color: #ffffff;
-        margin: 170px;
+        margin: 140px;
         padding: 10px;
-        margin-bottom: 60px;
+        margin-bottom: 70px;
+        border:1px solid; 
+        border-color: #d3d1d1;
+    
     }
 
     hr {
@@ -118,29 +121,20 @@ nav {
         margin: 45px 30px;
     }
 
- 
 
-    h3 {
-        background-color: #4aaaa5;
-        padding: 5px;
-        margin-bottom: 0%;
-        clear: both;
-        width:1264px;
-        display: table;
-        z-index: 100;
-        
-    
-    }
 
     footer {
         background-color: #666666;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         color: white;
-        padding: 20px;
+        padding: 15px;
         width: 100%;
         position: absolute;
-        z-index: 100;
-
-
-    }
+        right: 0;
+        
+        clear: both;
+        margin-top: 650px;
+        border-top: 10px solid;
+        border-color: #4aaaa5;
+}

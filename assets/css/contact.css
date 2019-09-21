@@ -8,14 +8,30 @@ body {
     background-image: url(../images/floor-tile.png)
 }
 
+h1 {  
+    margin-left: -90px;
+    line-height: 0px;
+    margin: 30px;
+        padding: 20px;
+        line-height: -500px;
+}
 
 .content {
     clear: both;
     background-color: #ffffff;
-    margin: 170px;
-    padding: 60px;
-    margin-bottom: 80px;
+    margin: 200px;
+    padding: 100px;
+    margin-left: 300px;
+    border:2px solid; 
+    border-color: #cccccc;
+
 }
+
+.message {
+    grid-auto-rows: 5;
+    columns: 20;
+}
+
 
 header {
     color: rgb(255, 255, 255);
@@ -77,15 +93,6 @@ nav {
     
     }
 
-    h3 {
-        background-color: #4aaaa5;
-        padding: 4px;
-        margin-bottom: 0%;
-        width:1264px;
-        display: table;
-        left: 50px;
-        position: absolute;
-    }
 
     footer {
         background-color: #666666;
@@ -96,5 +103,9 @@ nav {
         width: 100%;
         position: absolute;
         right: 0;
+        
+        clear: both;
+        margin-top: 200px;
+        border-top: 10px solid;
         border-color: #4aaaa5;
 }
