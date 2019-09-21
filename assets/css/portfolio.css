@@ -25,26 +25,31 @@ header {
 }
 
 .content {
-    background-size: cover;
-    display: inline-block;
-    margin: 120px 270px;
-    padding: 60px 110px;
-    border-image: 50px;
-    line-height: 190px;
-    left: 90px;
     
+    display: inline-block;
+    margin: 100px 270px 50px;
+    padding: 100px 70px 70px;
+    line-height: 100px;
+    float: left;
+    clear: both;
+     
 }
 
 
 ul {
     list-style: none;
     clear: both;
+    font-size: 18px;
 }
 
 li {
     display: inline-block;
     float: right;
-    padding: 5px;
+    right: 60px;
+    padding: 10px 10px;
+    margin: -20px;
+    margin-left: 20px;
+    
 }
 
 a {
@@ -54,8 +59,9 @@ a {
 }
 
 nav {
-    float: right;
-    font-size: 16;
+    
+    font-size: 30;
+   
 }
 
 #YourName {
@@ -64,7 +70,7 @@ nav {
     width: 200px;
     border: 1px solid #4aaaa5;
     float: left;
-    margin-left: 20px;
+    margin-left: -24px;
     padding: 30px;
     position: absolute;
     text-align: center;
@@ -89,9 +95,10 @@ nav {
         width: 100%;
         position: absolute;
         right: 0;
-        
+        font-family: Arial, Helvetica, sans-serif;
         clear: both;
-        margin-top: 200px;
+        margin-top: 1400px;
         border-top: 10px solid;
         border-color: #4aaaa5;
+        
 }

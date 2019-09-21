@@ -96,7 +96,8 @@ nav {
         font-size: 17;
         line-height: 25px;
         margin: 180px 30px 30px 30px;
-        margin-top: 70px     
+        margin-top: 70px;
+          
     }
 
      
@@ -119,6 +120,8 @@ nav {
         line-height: 80px;
         position: absolute;
         margin: 45px 30px;
+        clear: both;
+       
     }
 
 
