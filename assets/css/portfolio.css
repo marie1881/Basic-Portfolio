@@ -27,11 +27,11 @@ header {
 .content {
     background-size: cover;
     display: inline-block;
-    margin: 120px 260px;
-    padding: 100px 100px;
-    border-image: 70px;
-    line-height: 90px;
-    left: 60px;
+    margin: 120px 270px;
+    padding: 60px 110px;
+    border-image: 50px;
+    line-height: 190px;
+    left: 90px;
     
 }
 
